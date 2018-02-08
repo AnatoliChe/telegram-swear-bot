@@ -16,6 +16,7 @@ class SwearBot {
 
   sendPMReply({chat, text}: PMQuery) {
     const reply = sample(getReplies(text));
+    console.log(chat,text,'reply=',reply);
     this.bot.sendMessage(chat.id, reply);
   }
 

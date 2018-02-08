@@ -19,3 +19,11 @@ You can run tests and check types with:
 ```bash
 yarn test
 ```
+
+It's fork of Vladimir's project 
+add screen, utf-8, and some code in js which gives you posibility to see dialogs in console
+
+
+docker build -t yarn:1.1 .
+docker run -ti yarn:1.1 bash
+
