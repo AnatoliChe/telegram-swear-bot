@@ -13,7 +13,7 @@
   "license": "MIT",
   "dependencies": {
     "az": "^0.2.3",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.13",
     "node-telegram-bot-api": "^0.40.0",
     "uuid": "^3.4.0"
   },
@@ -24,7 +24,7 @@
     "babel-plugin-transform-object-rest-spread": "^6.26.0",
     "babel-preset-es2015": "^6.24.1",
     "flow-bin": "^0.118.0",
-    "jest": "^19.0.2",
+    "jest": "23.6.0",
     "nodemon": "^2.0.2"
   }
 }
