@@ -1,4 +1,4 @@
-FROM node:10
+FROM node:12
 MAINTAINER Vladimir Iakovlev <nvbn.rm@gmail.com>
 
 RUN adduser --disabled-password --gecos "" telegram-swear-bot

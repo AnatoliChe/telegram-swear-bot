@@ -18,13 +18,17 @@
     "uuid": "^3.4.0"
   },
   "devDependencies": {
-    "babel-cli": "^6.26.0",
-    "babel-plugin-syntax-flow": "^6.18.0",
-    "babel-plugin-transform-flow-strip-types": "^6.22.0",
-    "babel-plugin-transform-object-rest-spread": "^6.26.0",
-    "babel-preset-es2015": "^6.24.1",
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.8.4",
+    "@babel/runtime": "^7.8.4",
+    "@babel/plugin-syntax-flow": "^7.8.3",
+    "@babel/plugin-syntax-object-rest-spread": "^7.8.3",
+    "@babel/plugin-transform-flow-strip-types": "^7.8.3",
+    "@babel/plugin-transform-runtime": "^7.8.3",
+    "@babel/preset-env": "^7.8.4",
+    "@babel/preset-es2015": "^7.0.0-beta.53",
     "flow-bin": "^0.118.0",
-    "jest": "23.6.0",
+    "jest": "^25.1.0",
     "nodemon": "^2.0.2"
   }
 }
